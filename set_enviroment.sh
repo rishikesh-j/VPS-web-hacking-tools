@@ -48,3 +48,5 @@ unset OS
 	cd ~; wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz > /dev/null 2>&1 && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.19.2.linux-amd64.tar.gz > /dev/null 2>&1 && echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc; source .bashrc; rm -r go1.19.2.linux-amd64.tar.gz
 	echo -e ${BLUE}"[ENVIRONMENT]" ${GREEN}"Golang environment installation is done !"; echo "";
 }
+
+ENVIRONMENT
