@@ -241,7 +241,11 @@ USEFUL_TOOLS () {
 	#anew
 	echo -e ${BLUE}"[USEFUL TOOLS]" ${RED}"anew installation in progress ...";
 	go install -v github.com/tomnomnom/anew@latest > /dev/null 2>&1 && ln -s ~/go/bin/anew /usr/local/bin/;
-	echo -e ${BLUE}"[USEFUL TOOLS]" ${GREEN}"anew installation is done !"; echo "";
+	echo -e ${BLUE}"[USEFUL TOOLS]" ${GREEN}"anew installation is done !"; echo "";	
+	#waybackurls
+	echo -e ${BLUE}"[USEFUL TOOLS]" ${RED}"waybackurls installation in progress ...";
+	go install github.com/tomnomnom/waybackurls@latest > /dev/null 2>&1 && ln -s ~/go/bin/waybackurls /usr/local/bin/;
+	echo -e ${BLUE}"[USEFUL TOOLS]" ${GREEN}"waybackurls installation is done !"; echo "";
 	#qsreplace
 	echo -e ${BLUE}"[USEFUL TOOLS]" ${RED}"qsreplace installation in progress ...";
 	go install -v github.com/tomnomnom/qsreplace@latest > /dev/null 2>&1 && ln -s ~/go/bin/qsreplace /usr/local/bin/;
