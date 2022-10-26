@@ -145,7 +145,7 @@ FUZZING_TOOLS () {
 	echo -e ${BLUE}"[FUZZING TOOLS]" ${GREEN}"wfuzz installation is done !"; echo "";
 }
 
-LFI_TOOLS () {}
+#LFI_TOOLS () {}
 
 SSRF_TOOLS () {
 	#Interactsh
@@ -154,9 +154,10 @@ SSRF_TOOLS () {
 	echo -e ${BLUE}"[SSRF TOOLS]" ${GREEN}"Interactsh installation is done !"; echo "";
 }
 
-SSTI_TOOLS () {}
 
-API_TOOLS () {}
+#SSTI_TOOLS () {}
+
+#API_TOOLS () {}
 
 
 WORDLISTS () {
@@ -184,7 +185,7 @@ VULNS_SQLI () {
 	echo -e ${BLUE}"[VULNERABILITY - SQL Injection]" ${GREEN}"SQLMap installation is done !"; echo "";
 }
 
-CMS_SCANNER () {}
+#CMS_SCANNER () {}
 
 VULNS_SCANNER () {
 	#Nuclei + nuclei templates
@@ -218,10 +219,10 @@ JS_HUNTING () {
 	echo -e ${BLUE}"[JS FILES HUNTING]" ${GREEN}"subjs installation is done !"; echo "";
 }
 
-GIT_HUNTING() {}
+#GIT_HUNTING() {}
 
 
-SENSITIVE_FINDING() {}
+#SENSITIVE_FINDING() {}
 
 USEFUL_TOOLS () {
 	#getallurls
