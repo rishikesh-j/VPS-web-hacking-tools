@@ -57,7 +57,7 @@ RECONFTW () {
 
 OSMEDEUS () {
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"OSMEDEUS installation in progress ...";
-	bash <(curl -fsSL https://public-premium-osm.s3.ap-southeast-1.amazonaws.com/2f7f17ae60a47e598d0ac206227afcd7/premium.sh)
+	cd ~; bash <(curl -fsSL https://public-premium-osm.s3.ap-southeast-1.amazonaws.com/2f7f17ae60a47e598d0ac206227afcd7/premium.sh)
 	echo -e ${BLUE}"[ENVIRONMENT]" ${GREEN}"OSMEDEUS installation is done !"; echo "";
 }
 
