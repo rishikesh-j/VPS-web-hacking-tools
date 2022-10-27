@@ -51,13 +51,13 @@ unset OS
 
 RECONFTW () {
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"ReconFTW installation in progress ...";
-	git clone https://github.com/six2dez/reconftw && cd reconftw/ && ./install.sh
+	git clone https://github.com/six2dez/reconftw && cd reconftw/ && ./install.sh 
 	echo -e ${BLUE}"[ENVIRONMENT]" ${GREEN}"ReconFTW installation is done !"; echo "";
 }
 
 OSMEDEUS () {
 	echo -e ${BLUE}"[ENVIRONMENT]" ${RED}"OSMEDEUS installation in progress ...";
-	cd ~; bash <(curl -fsSL https://public-premium-osm.s3.ap-southeast-1.amazonaws.com/2f7f17ae60a47e598d0ac206227afcd7/premium.sh)
+	cd ~; bash <(curl -fsSL https://public-premium-osm.s3.ap-southeast-1.amazonaws.com/2f7f17ae60a47e598d0ac206227afcd7/premium.sh) && source ~/.bashrc
 	echo -e ${BLUE}"[ENVIRONMENT]" ${GREEN}"OSMEDEUS installation is done !"; echo "";
 }
 
